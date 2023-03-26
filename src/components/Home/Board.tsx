@@ -16,7 +16,7 @@ export const Board = () => {
       direction={isVerticalScreen ? 'row' : 'column'}
       gap={1}
       color="white"
-      bg="black"
+      bg="#222"
     >
       <Flex flex={1} alignItems="center" justifyContent="center">
         {word1}

@@ -12,8 +12,9 @@ export const Controls = () => {
       color="white"
       position="fixed"
       colorScheme="blue"
-      bottom={5}
-      right={5}
+      top="50%"
+      left="50%"
+      sx={{ transform: 'translate(-50%, -50%)' }}
       size="lg"
       aria-label="Pause/Ressume"
       isRound
